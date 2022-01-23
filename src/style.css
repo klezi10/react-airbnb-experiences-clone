@@ -18,3 +18,29 @@ body {
   width: 82px;
   margin-left: 30px;
 }
+
+.Hero .img-group {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 400px;
+  padding: 26px 0 32px;
+}
+
+.Hero h1 {
+  margin: 0;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  padding-left: 36px;
+  color: #000000;
+}
+
+.Hero p {
+  font-family: Poppins;
+  font-weight: 300;
+  line-height: 110%;
+  color: #222222;
+  padding-left: 36px;
+}
