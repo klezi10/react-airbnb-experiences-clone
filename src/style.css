@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 .Navbar {
@@ -22,14 +23,13 @@ body {
 .Hero .img-group {
   display: block;
   margin: 0 auto;
-  max-width: 100%;
-  width: 400px;
+  /* max-width: 100%; */
+  max-width: 400px;
   padding: 26px 0 32px;
 }
 
 .Hero h1 {
   margin: 0;
-  font-family: Poppins;
   font-weight: 600;
   font-size: 36px;
   line-height: 110%;
@@ -38,7 +38,6 @@ body {
 }
 
 .Hero p {
-  font-family: Poppins;
   font-weight: 300;
   line-height: 110%;
   color: #222222;
