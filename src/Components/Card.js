@@ -15,7 +15,7 @@ export default function Card() {
       <p className="title">Life lessons with Katie Zaferes</p>
       <p className="price-pp">
         {' '}
-        From $136 <span>/ person</span>
+        <span>From $136</span> / person
       </p>
     </div>
   );

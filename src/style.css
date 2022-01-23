@@ -50,6 +50,11 @@ body {
   display: flex;
   flex-direction: column;
   margin-left: 37px;
+  width: 175px;
+  font-size: 12px;
+  font-weight: 300;
+  color: #222222;
+  line-height: 110%;
 }
 
 .Card p {
@@ -58,7 +63,6 @@ body {
 }
 
 .Card .img-zaferes {
-  width: 176px;
   border-radius: 9px;
 }
 
@@ -73,31 +77,10 @@ body {
   align-items: center;
 }
 
-.Card .ratings {
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 110%;
-  color: #222222;
-}
-
 .Card .ratings span {
   color: #918e9b;
 }
 
-.Card .title {
-  font-weight: 300;
-  font-size: 12px;
-  line-height: 110%;
-  color: #222222;
-}
-
-.Card .price-pp {
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 110%;
-  color: #222222;
-}
-
 .Card .price-pp span {
-  font-weight: 300;
+  font-weight: 600;
 }
