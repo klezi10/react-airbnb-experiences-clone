@@ -15,7 +15,7 @@ export default function App() {
         img={Zaferes}
         rating="5.0"
         reviewCount={6}
-        country="US"
+        country="USA"
         title="Life lessons with Katie Zaferes"
         price={136}
       />
