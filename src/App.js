@@ -1,27 +1,27 @@
 import React from 'react';
 import './style.css';
 import Navbar from './Components/Navbar';
-// import Hero from './Components/Hero';
+import Hero from './Components/Hero';
 import Card from './Components/Card';
 // import Zaferes from './Images/Zaferes.png';
 import Data from './data';
 
 export default function App() {
-  // <Hero />;
-  const infoData = Data.map((pieceData) => (
+  const card = Data.map((item) => (
     <Card
-      img={pieceData.coverImg}
-      rating={pieceData.stats.rating}
-      reviewCount={pieceData.stats.reviewCount}
-      location={pieceData.location}
-      title={pieceData.title}
-      price={pieceData.price}
+      img={item.coverImg}
+      rating={item.stats.rating}
+      reviewCount={item.stats.reviewCount}
+      location={item.location}
+      title={item.title}
+      price={item.price}
     />
   ));
   return (
     <div className="App">
       <Navbar />
-      {infoData}
+      <Hero />
+      <section className="cards-list">{card}</section>
     </div>
   );
 }

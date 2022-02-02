@@ -46,15 +46,27 @@ body {
   margin-bottom: 50px;
 }
 
+section {
+  padding: 20px;
+}
+
 .Card {
   display: flex;
   flex-direction: column;
+  flex: 0 0 auto;
   margin-left: 37px;
   width: 175px;
   font-size: 12px;
   font-weight: 300;
   color: #222222;
   line-height: 110%;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
 }
 
 .Card p {
