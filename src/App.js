@@ -8,18 +8,7 @@ import Data from './data';
 
 export default function App() {
   //  <Hero />;
-  const card = Data.map((item) => (
-    <Card
-      key={item.id}
-      img={item.coverImg}
-      rating={item.stats.rating}
-      reviewCount={item.stats.reviewCount}
-      location={item.location}
-      title={item.title}
-      price={item.price}
-      openSpots={item.openSpots}
-    />
-  ));
+  const card = Data.map((item) => <Card key={item.id} item={item} />);
   return (
     <div className="App">
       <Navbar />

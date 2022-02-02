@@ -4,16 +4,20 @@ import React from 'react';
 
 export default function Card(props) {
   let badgeText;
-  if (props.openSpots === 0) {
+  if (props.item.openSpots === 0) {
     badgeText = 'SOLD OUT';
-  } else if (props.location === 'Online') {
+  } else if (props.item.location === 'Online') {
     badgeText = 'ONLINE';
   }
 
   return (
     <div className="Card">
       {badgeText && <div className="card-badge">{badgeText}</div>}
-      <img src={props.img} alt="athlete Zaferes" className="img-zaferes" />
+      <img
+        src={props.item.coverImg}
+        alt="athlete Zaferes"
+        className="img-zaferes"
+      />
       <div className="reviews">
         <img
           src="../Images/Star.png"
@@ -21,16 +25,16 @@ export default function Card(props) {
           className="img-star-rating"
         />
         <p className="ratings">
-          {props.rating}{' '}
+          {props.item.stats.rating}{' '}
           <span>
-            ({props.reviewCount})·{props.location}
+            ({props.item.stats.reviewCount})·{props.item.location}
           </span>
         </p>
       </div>
-      <p className="title">{props.title}</p>
+      <p className="title">{props.item.title}</p>
       <p className="price-pp">
         {' '}
-        <span>From ${props.price}</span> / person
+        <span>From ${props.item.price}</span> / person
       </p>
     </div>
   );
