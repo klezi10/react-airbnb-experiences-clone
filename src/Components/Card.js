@@ -1,6 +1,4 @@
 import React from 'react';
-// import Zaferes from '../Images/Zaferes.png';
-// import Star from '../Images/Star.png';
 
 export default function Card(props) {
   let badgeText;
