@@ -7,6 +7,7 @@ import Card from './Components/Card';
 import Data from './data';
 
 export default function App() {
+  //  <Hero />;
   const card = Data.map((item) => (
     <Card
       img={item.coverImg}
@@ -20,7 +21,7 @@ export default function App() {
   return (
     <div className="App">
       <Navbar />
-      <Hero />
+
       <section className="cards-list">{card}</section>
     </div>
   );

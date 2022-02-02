@@ -69,6 +69,11 @@ section {
   overflow-x: auto;
 }
 
+.Card .title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .Card p {
   margin: 0;
   padding-top: 8px;
@@ -91,6 +96,10 @@ section {
 
 .Card .ratings span {
   color: #918e9b;
+}
+
+.Card .price-pp {
+  margin-top: auto;
 }
 
 .Card .price-pp span {
