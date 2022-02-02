@@ -60,6 +60,17 @@ section {
   font-weight: 300;
   color: #222222;
   line-height: 110%;
+  position: relative;
+}
+
+.Card .card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  font-weight: 700;
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 0.3em 0.7em;
 }
 
 .cards-list {

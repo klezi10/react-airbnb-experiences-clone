@@ -5,6 +5,7 @@ import React from 'react';
 export default function Card(props) {
   return (
     <div className="Card">
+      <div className="card-badge">SOLD OUT</div>
       <img src={props.img} alt="athlete Zaferes" className="img-zaferes" />
       <div className="reviews">
         <img
